@@ -1,0 +1,15 @@
+Array: -1, 2, 3, 6, 10, 30
+Target: -1
+
+Left index: 0
+Right index: 5
+
+Mid: 5 / 2 = 2
+Value at index 2: 3
+3 > -1
+Right index --> mid - 1 = 1
+
+Mid: 1 / 2 = 0
+Value at index 0: -1
+-1 == -1 so return 0 (target was found)
+
