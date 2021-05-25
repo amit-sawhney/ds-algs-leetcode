@@ -28,7 +28,7 @@ public class Quicksort {
     public static void qs(int[] arr, int leftIndex, int rightIndex) {
         // Replacing the below if statement with:
         /*
-         * if (leftIndex > rightIndex) { return; }
+         * if (leftIndex >= rightIndex) { return; }
          */
         // would also work
 
